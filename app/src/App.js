@@ -5,16 +5,32 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className='branch1'></div>
-        <div className='branch2'></div>
-        <div className='branch3'></div>
-        <div className='branch4'></div>
-        <div className='bunny'></div>
-        <div className='rose1'></div>
-        <div className='rose2'></div>
+      <div>
+        <div className='mainPic'>
+            <div className='overlayMainPic'>
+              <h2>Welcome</h2>
+            </div>
+        </div>
+        <div className='bar'>
+
+        </div>
+        <div className='secondPic'>
+
+        </div>
+        <div className='thirdPic'>
+
+        </div>
+        <div className='bar'>
+
+        </div>
+        <div className='forthPic'>
+
+        </div>
+        <div className='bar'>
+
+        </div>
       </div>
-    );
+    )
   }
 }
 
