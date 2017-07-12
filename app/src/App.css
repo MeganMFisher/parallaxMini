@@ -12,6 +12,8 @@
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 1;
+  transform: translateZ(-4px) scale(4);
 }
 
 .branch2 {
@@ -22,6 +24,37 @@
   transform: rotate(180deg);
   position: absolute;
   bottom: 0;
+}
+
+.branch3 {
+  width: 300px;
+  height: 200px;
+  background: url('http://www.efoza.com/postpic/2013/11/tree-branch-with-leaves-clip-art_251221.png');
+  background-size: cover;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 10%;
+  left: -40px;
+}
+
+.branch4 {
+  width: 500px;
+  height: 400px;
+  background: url('http://www.efoza.com/postpic/2013/11/tree-branch-with-leaves-clip-art_251221.png');
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bunny {
+  width: 100px;
+  height: 150px;
+  background: url('http://www.webweaver.nu/clipart/img/nature/rabbits/grey-rabbit.png');
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 
