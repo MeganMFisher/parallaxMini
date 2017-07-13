@@ -8,10 +8,10 @@ export function load() {
     var scrollPosition = $(this).scrollTop();
     console.log('scrollPosition', scrollPosition);
     $('.wrapper').css({
-      'background-size': (150 + ($(this).scrollTop() / 20)) + '%'
+      'background-size': (150 + (scrollPosition / 20)) + '%'
     })
     $('.bunny').css({
-      'transform': 'translate(' + (scrollPosition / 20) + '%, ' + (scrollPosition / 8) + '%)'
+      'transform': 'translate(' + (scrollPosition / 20) + '%, ' + (scrollPosition / 1) + '%)'
     })
     $('.branch4').css({
       'transform': 'translate(' + (scrollPosition / 8) + '%, -' + (scrollPosition / 4) + '%)'

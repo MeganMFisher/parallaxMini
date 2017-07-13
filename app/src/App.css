@@ -3,7 +3,7 @@
     height: 100vh;
     background: url("http://wallpapercave.com/wp/kV4kCJw.jpg");
     background-size: cover;
-    background-attachment: fixed;
+      background-attachment: fixed;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     height: 100vh;
     background: url("http://wallsdesk.com/wp-content/uploads/2016/11/Night-Sky-Stars-HD-Background.jpg");
     background-size: cover; 
-    background-attachment: fixed;
+     background-attachment: fixed; 
 }
 
 .thirdPic {
@@ -41,7 +41,7 @@
     height: 100vh;
     background: url('http://www.powerpointhintergrund.com/uploads/2017/06/swiss-night-sky-wallpapers-hd-wallpapers-4.jpeg');
     background-size: cover; 
-    background-attachment: fixed;
+     background-attachment: fixed; 
 }
 
 .forthPic {
@@ -49,7 +49,7 @@
     height: 100vh;
     background: url('http://s1.1zoom.net/big3/70/352987-admin.jpg');
     background-size: cover;
-    background-attachment: fixed;
+     background-attachment: fixed; 
 }
 
 /* **************** */
@@ -87,7 +87,7 @@
   height: 200px;
   background: url('http://www.efoza.com/postpic/2013/11/tree-branch-with-leaves-clip-art_251221.png');
   background-size: cover;
-  transform: rotate(180deg);
+   transform: rotate(180deg); 
   position: absolute;
   top: 10%;
   left: -40px;
