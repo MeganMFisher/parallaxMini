@@ -11,8 +11,12 @@ export function load() {
       'background-size': (150 + (scrollPosition / 20)) + '%'
     })
     $('.bunny').css({
-      'transform': 'translate(' + (scrollPosition / 20) + '%, ' + (scrollPosition / 1) + '%)'
-    })
+      'transform': 'translate(' + (scrollPosition / 20) + '%, ' + (scrollPosition / 8) + '%)'
+    }).animate({
+        'marginTop' : "-=30px" 
+    }).animate({
+        'marginTop' : "+=30px" //Jumping bunny
+    });
     $('.branch4').css({
       'transform': 'translate(' + (scrollPosition / 8) + '%, -' + (scrollPosition / 4) + '%)'
     })
@@ -24,7 +28,10 @@ export function load() {
     })
     $('.rose1').css({
       'transform': 'translate(' + (scrollPosition / 5) + '%, ' + (scrollPosition / 2) + '%)'
-    })
+    }).animate({ opacity: 0.25 });  //disappearing flowers
+
   })
 })
 }
+
+//.slideUp( "slow")
